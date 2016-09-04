@@ -1,0 +1,13 @@
+doctype html
+html(lang="en")
+  head
+    title= title
+    link(href="./demo.css" rel="stylesheet")
+  body
+    .container
+      h1 #{title}
+      .box
+        input(type="text" id='keyword')
+        ul(id="list",style="display:none")
+      button(id="btn") search
+    script(src="./demo.js")

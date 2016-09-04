@@ -1,0 +1,52 @@
+* {
+    font-family: "Microsoft Yahei", serif;
+    font-size: 14px;
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+}
+
+.container{
+    margin: 50px auto;
+    text-align: center;
+}
+.box {
+    display: inline-block;
+    width: 400px;
+    position: relative;
+}
+
+#list {
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    border: 1px solid gray;
+    border-top: none;
+    width: 398px;
+}
+
+#list > li {
+    padding: 5px 15px;
+}
+
+#list > li:hover {
+    background: lightblue;
+    cursor: default;
+}
+
+#keyword {
+    border: 1px solid gray;
+    outline: none;
+    padding: 10px 15px;
+    margin: 0;
+    width: 368px;
+}
+
+#btn {
+    padding: 8px 15px;
+}
